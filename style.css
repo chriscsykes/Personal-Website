@@ -1,0 +1,211 @@
+*{-webkit-font-smoothing:subpixel-antialiased}
+html{width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+body{background-image:url(img/background4.jpg);background-size:contain;background-color:#f1f1f1;font-family:'IBM Plex Mono',monospace;padding:0;margin:0}
+html,body{position:relative;overflow-x:hidden}
+.navbar{background-color:#fff!important}
+#logo{height:4.5em}
+#navbarMenu{text-align:right;font-size:1.5em;font-weight:400}
+.nav-item > .nav_link{color:#000;background-color:#fff;padding-left:1em;padding-right:1em}
+.front-page{min-height:calc(100% - 9em);min-height:calc(100vh - 9em);align-items:center;max-height:100%}
+.front-page-top{padding-top:4em}
+#main-title{font-weight:600;font-size:4.7em;padding-top:1em}
+#subtitle{padding-top:.8em;font-size:2em}
+.title-section{color:#000;background-color:rgba(190,190,190,0.4);border-radius:10px;padding-top:1em;padding-bottom:5em;margin-left:1em;margin-right:1em}
+.list-inline-item{padding-top:2.5em;padding-right:10px}
+.fa-envelope{color:#D44638}
+.fa-envelope:hover{color:#e07d73}
+.fa-linkedin{color:#0077B5}
+.fa-linkedin:hover{color:#4c9fcb}
+.fa-github-square{color:#333}
+.fa-github-square:hover{color:#707070}
+.divider{border-top:1px dotted;color:#bebebe;padding-bottom:2em;padding-top:2em}
+.page-2{min-height:100vh}
+.additional-padding-row{padding-bottom: 15em}
+.about-section{color:#000;background-color:rgba(190,190,190,0.4);border-radius:10px;padding-top:1em;padding-bottom:2em;margin-left:1em;margin-right:1em}
+.section-title{font-size:3em;font-weight:600;padding-top:.5em;padding-bottom:.5em}
+.img{width:275px;height:150px;border:2px solid #000;margin-top:1.5em;object-fit:cover;border-radius:5%}
+.headshot{width:13em;height:auto;border:2px solid #000;border-radius:10px}
+.football-pic{width:15em;height:auto;border:2px solid #000;border-radius:10px!important}
+.figure-caption{font-size:70%}
+.football-padding{margin-top:6.5em}
+.about-paragraph{padding-top:2em;font-size:1em;font-weight:400}
+.skills-section{color:#000;background-color:rgba(190,190,190,0.4);height:22em;border-radius:10px;padding-top:1em;padding-bottom:2em;margin-left:1em;margin-right:1em;margin-top:2em}
+.skill-category{font-size:1.3em;font-weight:500}
+.skill{font-size:1.1em;font-weight:400}
+.section-divider{padding-bottom:3em}
+.projects-section{color:#000;background-color:rgba(190,190,190,0.4);border-radius:10px;padding-top:1em;padding-bottom:3em;margin:2em}
+.overlay{position:absolute;top:1%;left:50%;background-color:rgba(0,0,0,0.4);height:150px;width:275px;opacity:0;transition:.75s ease;border-radius:5%}
+.ctr{position:absolute;transform:translate(-50%,15%);text-align:center;padding-top:58px}
+.overlay:hover{opacity:1}
+.mobile-button{opacity:0}
+#project-title{font-weight:600}
+.website-modal-pic{position:relative;display:block;width:100%;height:100%}
+.modal-body-text{padding-top:1em}
+.btn-primary{color:#fff;background-color:#000;border-color:#fff}
+.btn-primary:hover{background-color:#666;border-color:#666}
+.view-button{color:#fff;background-color:#000;border-color:#000}
+.view-button:hover{background-color:#666;border-color:#666}
+.github-link{color:#fff}
+.github-link:hover{color:#fff;text-decoration:none}
+.contact-me-button{color:#fff}
+.contact-me-button:hover{color:#fff;text-decoration:none}
+.fa-arrow-up{color:#191919}
+.fa-arrow-up:hover{color:#666}
+.footer-box{color:#000;background-color:#fff;padding-bottom:1em;margin-top:2em}
+.footer-text{font-size:.75em}
+@media screen and (device-aspect-ratio: 4071) {
+.front-page-top{padding-top:2em}
+#main-title{font-size:2.3em;padding-top:1.1em}
+#subtitle{padding-top:.8em;font-size:1.4em}
+.title-section{padding-bottom:2em}
+.section-title{font-size:2.3em}
+.page-2{min-height:285vh}
+.skill{font-size:.9em}
+.about-paragraph{padding-left:1em;padding-right:1em}
+.projects-section{border-radius:10px;padding-top:1em;padding-bottom:3em;margin-left:1em;margin-right:1em}
+.imghov{text-align:center}
+.overlay{background-color:rgba(0,0,0,0);opacity:0}
+.mobile-button{opacity:1;position:absolute;top:0;right:39%}
+.mobile-button:hover .view-button{background-color:#666;border-color:#666}
+.col-md-6{position:relative;width:100%;min-height:1px;padding-right:0;padding-left:0}
+.page-3 h5{font-size:1em}
+.footer-text{font-size:.5em}
+}
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+.front-page-top{padding-top:2em}
+#main-title{font-size:2.3em;padding-top:1.1em}
+#subtitle{padding-top:.8em;font-size:1.4em}
+.title-section{padding-bottom:2em}
+.section-title{font-size:2.3em}
+.page-2{min-height:260vh}
+.skill-category{font-size:1.2em}
+.skills-section{height:25em}
+.overlay{background-color:rgba(0,0,0,0);opacity:0}
+.projects-section{margin-left:1em;margin-right:1em}
+.imghov{text-align:center}
+.mobile-button{opacity:1;position:absolute;top:0;right:40%}
+h5{font-size:1.2em}
+}
+@media only screen
+and (min-device-width : 375px) {
+.front-page-top{padding-top:3em}
+#main-title{font-size:2.8em;padding-top:1.1em}
+#subtitle{padding-top:.8em;font-size:1.7em}
+.title-section{padding-bottom:4em}
+.section-title{font-size:2.8em}
+.skills-section{height:27em}
+.page-2{min-height:1800px}
+.projects-section{margin-left:1em;margin-right:1em}
+.imghov{text-align:center}
+.overlay{background-color:rgba(0,0,0,0);opacity:0}
+.mobile-button{opacity:1;position:absolute;top:1%;right:41%}
+.video{width:350px}
+}
+
+@media only screen
+and (min-device-width : 410px) {
+.front-page-top{padding-top:3em}
+#main-title{font-size:2.8em;padding-top:1.1em}
+#subtitle{padding-top:.8em;font-size:1.7em}
+.title-section{padding-bottom:4em}
+.section-title{font-size:2.8em}
+.skills-section{height:34em}
+.skill-category{font-size:2em}
+.skill{font-size:1.25em}
+.page-2{min-height:1750px}
+.projects-section{margin-left:1em;margin-right:1em}
+.imghov{text-align:center}
+.overlay{background-color:rgba(0,0,0,0);opacity:0}
+.mobile-button{opacity:1;position:absolute;top:1%;right:41%}
+.video{width:350px}
+}
+@media only screen
+and (min-device-width : 413px) {
+.front-page-top{padding-top:3em}
+#main-title{font-size:2.8em;padding-top:1.1em}
+#subtitle{padding-top:.8em;font-size:1.7em}
+.title-section{padding-bottom:4em}
+.section-title{font-size:2.8em}
+.skills-section{height:32em}
+.skill-category{font-size:2em}
+.skill{font-size:1.25em}
+.page-2{min-height:1750px}
+.projects-section{margin-left:1em;margin-right:1em}
+.imghov{text-align:center}
+.overlay{background-color:rgba(0,0,0,0);opacity:0}
+.mobile-button{opacity:1;position:absolute;top:1%;right:41%}
+.video{width:350px}
+}
+@media only screen
+and (device-width : 375px)
+and (device-height : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+.page-2{min-height:230vh}
+}
+@media screen and (min-width: 768px) {
+#main-title{font-size:4.7em;padding-top:1em}
+#subtitle{font-size:2em}
+.page-2{min-height:90vh}
+.skills-section{margin-top:0;height:28em}
+.skill-category{font-size:1.5em}
+.skill{font-size:1em}
+.football-padding{margin-top:3.5em}
+.projects-section{margin-left:1.5em;margin-right:1.5em}
+.img{width:275px;height:150px;border:2px solid #000;margin-top:1.5em;object-fit:cover;border-radius:5%}
+.overlay{position:absolute;top:0;left:50%;background-color:rgba(0,0,0,0.4);height:150px;width:275px;opacity:0;transition:.75s ease;border-radius:5%}
+.overlay:hover{opacity:1}
+.ctr{position:absolute;transform:translate(-50%,-100%);text-align:center;padding-top:58px}
+.mobile-button{opacity:0;position:relative;top:0;right:0}
+.project-name{margin-top:-135px;margin-bottom:25px}
+}
+@media screen and (min-width: 840px) {
+    #main-title{font-size:4.7em;padding-top:1em}
+    #subtitle{font-size:2em}
+    .page-2{min-height:90vh}
+    .skills-section{margin-top:0;height:22em}
+    .skill-category{font-size:1.5em}
+    .skill{font-size:1em}
+    .football-padding{margin-top:3.5em}
+    .projects-section{margin-left:1.5em;margin-right:1.5em}
+    .img{width:275px;height:150px;border:2px solid #000;margin-top:1.5em;object-fit:cover;border-radius:5%}
+    .overlay{position:absolute;top:0;left:50%;background-color:rgba(0,0,0,0.4);height:150px;width:275px;opacity:0;transition:.75s ease;border-radius:5%}
+    .overlay:hover{opacity:1}
+    .ctr{position:absolute;transform:translate(-50%,-100%);text-align:center;padding-top:58px}
+    .mobile-button{opacity:0;position:relative;top:0;right:0}
+    .project-name{margin-top:-135px;margin-bottom:25px}
+    }
+@media screen and (min-width: 1024px) {
+#main-title{font-size:4.7em;padding-top:1em}
+#subtitle{font-size:2em}
+.page-2{min-height:80vh}
+.skills-section{margin-top:0;height:35em}
+.skill-category{font-size:2em}
+.skill{font-size:1.5em}
+.football-padding{margin-top:7.5em}
+.projects-section{margin-left:1.5em;margin-right:1.5em}
+.img{width:275px;height:150px;border:2px solid #000;margin-top:1.5em;object-fit:cover;border-radius:5%}
+.overlay{position:absolute;top:0;left:50%;background-color:rgba(0,0,0,0.4);height:150px;width:275px;opacity:0;transition:.75s ease;border-radius:5%}
+.overlay:hover{opacity:1}
+.ctr{position:absolute;transform:translate(-50%,-100%);text-align:center;padding-top:58px}
+.mobile-button{opacity:0;position:relative;top:0;right:0}
+.project-name{margin-top:-135px;margin-bottom:25px}
+}
+@media screen and (min-width: 1024px) {
+#main-title{font-size:4.7em;padding-top:1em}
+#subtitle{font-size:2em}
+.page-2{min-height:100vh}
+.skills-section{margin-top:0;height:34em}
+.skill-category{font-size:2em}
+.skill{font-size:1.5em}
+.football-padding{margin-top:7.5em}
+.projects-section{margin-left:6em;margin-right:6em}
+.img{width:275px;height:150px;border:2px solid #000;margin-top:1.5em;object-fit:cover;border-radius:5%}
+.overlay{position:absolute;top:0;left:50%;background-color:rgba(0,0,0,0.4);height:150px;width:275px;opacity:0;transition:.75s ease;border-radius:5%}
+.overlay:hover{opacity:1}
+.ctr{position:absolute;transform:translate(-50%,-100%);text-align:center;padding-top:58px}
+.mobile-button{opacity:0;position:relative;top:0;right:0}
+.project-name{margin-top:-135px;margin-bottom:25px}
+}
+@media screen and (min-width: 1074px) {
+.skills-section{margin-top:0;height:24em}
+}

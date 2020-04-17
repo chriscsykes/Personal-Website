@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a personal website for Christopher Sykes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/376044f1d5.js"></script>
+    <title>Christopher Sykes</title>
+  </head>
+  <body class="web-body">
+    <a name="home"></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.jpg" id="logo">
+          </a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon" id="navButton"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav_link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav_link" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav_link " href="#projects">Projects</a>
+              </li>
+            </ul>
+          </div>
+    </nav>
+    <div class="front-page vertical-center">
+      <div class="container-fluid title">
+        <div class="row front-page-top">
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-xs-1"></div>
+          <div class="col-md-8 col-xs-10 text-center title-section">
+            <h2 id="main-title">
+              Christopher<br>Sykes
+            </h2>
+            <h3 id="subtitle">
+              Dartmouth Computer Science
+            </h3>
+            <ul id="iconLinks" class="list-inline">
+              <li class="list-inline-item">
+                <a href="mailto:chrispsykes12@gmail.com">
+                  <i class="fas fa-envelope fa-3x" title="Email"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/christopher-sykes" target="_blank">
+                  <i class="fab fa-linkedin fa-3x" title="LinkedIn"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/chriscsykes" target="_blank">
+                  <i class="fab fa-github-square fa-3x" title="GitHub"></i>
+                </a>
+              </li>
+            </ul>
+            </div>
+          </div>
+          <div class="col-md-2 col-xs-1"></div>
+        </div>
+      </div>
+      <hr class="divider">
+      <a name="about-me"></a>
+      <div class="page-2">
+        <div class="container-fluid">
+          <div class="row text-center justify-content-around padding additional-padding-row">
+            <div class="col-md-6 col-xs-12 text-center about-section">
+              <h3 class="section-title">About Me</h3>
+              <img class="headshot" src="img/headshot.png">
+              <p class="about-paragraph">
+                My name is Christopher Sykes and I am a sophomore at Dartmouth College. I was born and raised in Hawai'i, and from a young age have always been interested in computers and technology, which is why I am majoring in computer science. I am currently a <a href="https://dartmouthsports.com/roster.aspx?rp_id=18514" target="_blank">wide receiver for the Dartmouth football team</a>. In my free time I enjoy going to the gym, and hanging out with friends and family.
+              </p>
+            </div>
+            <div class="col-md-5 col-xs-12 skills-section additional-padding">
+              <div class="container-fluid">
+                <h3 class="section-title">Skills</h3>
+                <div class="row text-center">
+                  <div class="col">
+                    <h4 class="skill-category">Front End:</h4>
+                    <div class="container-fluid">
+                      <div class="row text-center">
+                        <div class="col skill">
+                          <p>-HTML</p>
+                        </div>
+                      </div>
+                      <div class="row text-center">
+                        <div class="col skill">
+                          <p>-CSS</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <h4 class="skill-category">Back End:</h4>
+                    <div class="container-fluid">
+                      <div class="row text-center">
+                        <div class="col skill">
+                          <p>-Python</p>
+                        </div>
+                      </div>
+                      <div class="row text-center">
+                        <div class="col skill">
+                          <p>-Java</p>
+                        </div>
+                      </div>
+                      <div class="row text-center">
+                        <div class="col skill">
+                          <p>-C</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <h4 class="skill-category">Other:</h4>
+                    <div class="container-fluid">
+                      <div class="row text-center">
+                        <div class="col skill">
+                          <p>-Unix</p>
+                        </div>
+                      </div>
+                      <div class="row text-center">
+                        <div class="col skill">
+                          <p>-Git</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container-fluid football-padding">
+                <div class="row text-center">
+                  <div class="col">
+                    <figure class="figure">
+                      <img src="img/football.jpg" class="figure-img img-fluid rounded football-pic">
+                      <figcaption class="figure-caption">Dartmouth Football 18-19 "Hawai'i Boys"</figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="section-divider">
+      <a name="projects"></a>
+      <div class="page-3">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col projects-section">
+              <div class="row text-center padding">
+                <div class="col">
+                  <h3 class="section-title">Projects</h3>
+                </div>
+              </div>
+              <div class="row padding justify-content-around">
+                <div class="col-md-6 text-center">
+                  <div class="hover-button imghov">
+                    <img src="img/TSE-logo.png" class="img">
+                    <div class="overlay ctr mobile-button">
+                      <button type="button" class="btn btn-primary view-button" data-toggle="modal" data-target="#TSEModal">View</button>
+                    </div>
+
+                    <h5 class="project-name">Tiny Search Engine</h5>
+                  </div>
+                </div>
+                <div class="col-md-6 text-center">
+                  <div class="hover-button imghov">
+                    <img src="img/maze-logo.png" class="img">
+                    <div class="overlay ctr mobile-button">
+                      <button type="button" class="btn btn-primary view-button" data-toggle="modal" data-target="#mazeModal">View</button>
+                    </div>
+
+                    <h5 class="project-name">Maze Solver</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="row padding justify-content-around">
+                <div class="col-md-6 text-center">
+                  <div class="hover-button imghov">
+                    <img src="img/huffman-pic.png" class="img">
+                    <div class="overlay ctr mobile-button">
+                      <button type="button" class="btn btn-primary view-button" data-toggle="modal" data-target="#huffmanModal">View</button>
+                    </div>
+
+                    <h5 class="project-name">Huffman File Compression</h5>
+                  </div>
+                </div>
+                <div class="col-md-6 text-center">
+                  <div class="hover-button imghov">
+                    <img src="img/baker.png" class="img">
+                    <div class="overlay ctr mobile-button">
+                      <button type="button" class="btn btn-primary view-button" data-toggle="modal" data-target="#webcamModal">View</button>
+                    </div>
+
+                    <h5 class="project-name">Webcam Paint & Processing</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="row padding justify-content-around">
+                <div class="col-md-6 text-center">
+                  <div class="hover-button imghov">
+                    <img src="img/website-pic2.png" class="img">
+                    <div class="overlay ctr mobile-button">
+                      <button type="button" class="btn btn-primary view-button" data-toggle="modal" data-target="#websiteModal">View</button>
+                    </div>
+
+                    <h5 class="project-name">Personal Website</h5>
+                  </div>
+                </div>
+                <div class="col-md-6 text-center">
+                  <div class="hover-button imghov">
+                    <img src="img/dartmouth-pathfinder.png" class="img">
+                    <div class="overlay ctr mobile-button">
+                      <button type="button" class="btn btn-primary view-button" data-toggle="modal" data-target="#pathfinderModal">View</button>
+                    </div>
+
+                    <h5 class="project-name">Dartmouth Pathfinder</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contaier-fluid return-arrow">
+        <div class="row justify-content-center">
+          <div class="col-xs-12">
+            <a href="#">
+              <i class="fas fa-arrow-up fa-3x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container-fluid footer-box">
+          <div class="row justify-content-center">
+            <div class="col-md-2 col-xs-1"></div>
+            <div class="col-md-8 col-xs-10 text-center">
+              <ul id="iconLinks" class="list-inline">
+                <li class="list-inline-item">
+                  <a href="mailto:chrispsykes12@gmail.com">
+                    <i class="fas fa-envelope fa-3x" title="Email"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/in/christopher-sykes" target="_blank">
+                    <i class="fab fa-linkedin fa-3x" title="LinkedIn"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://github.com/chriscsykes" target="_blank">
+                    <i class="fab fa-github-square fa-3x" title="GitHub"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-2 col-xs-1"></div>
+          </div>
+          <div class="row justify-content-center">
+            <p class="footer-text">@2019 Christopher Sykes. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+      <div class="modal fade" id="websiteModal" tabindex="-1" role="dialog" aria-labelledby="websiteModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header d-block">
+              <div class="d-flex">
+                <h5 class="modal-title" id="project-title">Personal Website</h5>
+              </div>
+            <h6 class="modal-title" id="project-subtitle">HTML & CSS</h6>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row justify-content-center">
+                  <img src="img/website-modal.png" class="website-modal-pic">
+                </div>
+                <div class="row">
+                  <div class="col modal-body-text">
+                    <p>I created this website completely from scratch with no prior knowledge of web development. In order to make a clean website that would be functional on any device, I taught myself HTML, CSS, and JavaScript. I also made use of Bootstrap, a mobile-first front-end framework.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">
+                <a class="github-link" href="https://github.com/chriscsykes/Personal-Website" target="_blank">See the code</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="pathfinderModal" tabindex="-1" role="dialog" aria-labelledby="pathfinderModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="vertical-alignment-helper">
+            <div class="modal-content">
+              <div class="modal-header d-block">
+                <div class="d-flex">
+                  <h5 class="modal-title" id="project-title">Dartmouth Pathfinder</h5>
+                </div>
+              <h6 class="modal-title" id="project-subtitle">Python</h6>
+              </div>
+              <div class="modal-body">
+                <div class="container-fluid">
+                  <div class="row justify-content-center">
+                    <div class="embed-responsive embed-responsive-16by9 col-xs-6 justify-content-center">
+                      <video playsnline webkit-playsinline muted class="video" autoplay="autoplay" loop="loop" width="600">
+                        <source src="img/pathfinder-recording.mp4" type="video/mp4">
+                      </video>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col modal-body-text">
+                      <p>In this program, I created a graph that models Dartmouth's campus, finds the shortest path (least amount of vertices) from one point on campus to another, and displays that path. The user selects a starting vertex, and every vertex the mouse hovers over subsequently will display the shortest path from that vertex back to the start vertex. In order to find the shortest path between vertices, my program makes use of the Breadth-First search sorting algorithm with backchaining.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">
+                  <a href="mailto:chrispsykes12@gmail.com" class="contact-me-button">Contact me for code</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="huffmanModal" tabindex="-1" role="dialog" aria-labelledby="huffmanModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header d-block">
+              <div class="d-flex">
+                <h5 class="modal-title" id="project-title">Huffman File Compression</h5>
+              </div>
+            <h6 class="modal-title" id="project-subtitle">Java</h6>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row justify-content-center">
+                  <img src="img/constitution_compressed_decompressed.png" class="website-modal-pic">
+                </div>
+                <div class="row">
+                  <div class="col modal-body-text">
+                    <p>In this project, I created a program that implements a popular form of lossless file compression, Huffman encoding, to compress and decompress files. Instead of using 7 bits to encode each chararcter as ASCII does, Huffman encoding uses variable length encoding in which the length of each characters representation is directly related to its frequency in the text. In order to determine each character's code, a binary tree is created with each leaf representing a character, and each edge on the tree representing either a 0 or 1. The path from the root to that character gives that character's code word. My program was able to achieve roughly 50% file compression.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">
+                <a class="contact-me-button" href="mailto:chrispsykes12@gmail.com">Contact me for code</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="webcamModal" tabindex="-1" role="dialog" aria-labelledby="webcamModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header d-block">
+              <div class="d-flex">
+                <h5 class="modal-title" id="project-title">Webcam Paint and Processing</h5>
+              </div>
+            <h6 class="modal-title" id="project-subtitle">Java</h6>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row justify-content-center">
+                  <div class="col-xs-12">
+                    <img src="img/baker-floodfill.png" class="website-modal-pic">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col modal-body-text">
+                    <p>In this project, I created a web-based painting program in which some portion of the image acts as a "paintbrush." In order to determine the paintbrush, my program had to be able to find a uniformly-colored region by employing a region growing algorithm. In the picture of Baker-Berry Library above, the wall of the library was selected and the other areas of the picture of the same color were recolored. Once the largest region of the same color is determined, this region can function as a paintbrush, as seen in the video below.</p>
+                  </div>
+                </div>
+                <div class="row justify-content-center">
+                  <div class="embed-responsive embed-responsive-16by9 col-xs-12 justify-content-center">
+                    <video playsnline webkit-playsinline muted autoplay="autoplay" loop="loop" class="video" width="600">
+                      <source src="img/webcam-recording.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">
+                <a class="contact-me-button" href="mailto:chrispsykes12@gmail.com">Contact me for code</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="TSEModal" tabindex="-1" role="dialog" aria-labelledby="TSEModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header d-block">
+              <div class="d-flex">
+                <h5 class="modal-title" id="project-title">Tiny Search Engine</h5>
+              </div>
+            <h6 class="modal-title" id="project-subtitle">C and Unix</h6>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row justify-content-center">
+                  <img src="img/tse_pic.png" class="website-modal-pic">
+                </div>
+                <div class="row">
+                  <div class="col modal-body-text">
+                    <p>In this project, I created a Tiny Search Engine that takes a search query from the command-line and
+                       returns a list of documents that those words appear in. This project consisted of three main parts: <br/> <br/>A "Crawler" 
+                        which crawls a website and retrieves webpages starting with a specified URL. It parses the initial webpage, 
+                        extracts any embedded URLs and retrieves those pages, and crawls the pages found at those URLs. <br/> <br/> A "Indexer" which
+                        reads the document files produced by the Crawler, builds an index, and writes that index to a file. <br/><br/>
+                        A "Querier" which reads the index file produced by the Indexer, and page files produced by the Crawler, 
+                        and answers search queries submitted via stdin. The output is a list ranked form highest to lowest count, showing 
+                        the score, doc_ID, and URL. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">
+                <a class="contact-me-button" href="mailto:chrispsykes12@gmail.com">Contact me for code</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="mazeModal" tabindex="-1" role="dialog" aria-labelledby="mazeModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header d-block">
+              <div class="d-flex">
+                <h5 class="modal-title" id="project-title">Maze Solver</h5>
+              </div>
+            <h6 class="modal-title" id="project-subtitle">C and Unix</h6>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="embed-responsive embed-responsive-16by9 col-xs-12 justify-content-center">
+                  <video playsnline webkit-playsinline muted autoplay="autoplay" loop="loop" class="video" width="600">
+                    <source src="img/maze-recording.mov" type="video/mp4">
+                  </video>
+                </div>
+                <div class="row">
+                  <div class="col modal-body-text">
+                    <p>In this project, a few of my peers and I created a client-server application that simulates players --avatar threads-- searching 
+                      for each other in a maze generated and managed by a server. The application was able to solve mazes of varying 
+                      difficulty without any prior knowledge. To do this, our team developed a algorithm that implemented a breadth-first search
+                       to find dead ends, and a priority queue to store potential moves. In addition, the application included a visual user interface and a log 
+                      file to track the avatars’ success/failures. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">
+                <a class="contact-me-button" href="mailto:chrispsykes12@gmail.com">Contact me for code</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
