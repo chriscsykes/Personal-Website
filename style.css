@@ -71,21 +71,23 @@ html,body{position:relative;overflow-x:hidden}
 .page-3 h5{font-size:1em}
 .footer-text{font-size:.5em}
 }
+/*  Moto G4, Galazy S5,  */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
 .front-page-top{padding-top:2em}
 #main-title{font-size:2.3em;padding-top:1.1em}
 #subtitle{padding-top:.8em;font-size:1.4em}
 .title-section{padding-bottom:2em}
 .section-title{font-size:2.3em}
-.page-2{min-height:260vh}
+.page-2{min-height:275vh}
 .skill-category{font-size:1.2em}
-.skills-section{height:25em}
+.skills-section{height:30em}
 .overlay{background-color:rgba(0,0,0,0);opacity:0}
 .projects-section{margin-left:1em;margin-right:1em}
 .imghov{text-align:center}
 .mobile-button{opacity:1;position:absolute;top:0;right:40%}
 h5{font-size:1.2em}
 }
+/* iPhone X */
 @media only screen
 and (min-device-width : 375px) {
 .front-page-top{padding-top:3em}
@@ -93,7 +95,7 @@ and (min-device-width : 375px) {
 #subtitle{padding-top:.8em;font-size:1.7em}
 .title-section{padding-bottom:4em}
 .section-title{font-size:2.8em}
-.skills-section{height:27em}
+.skills-section{height:31em}
 .page-2{min-height:1800px}
 .projects-section{margin-left:1em;margin-right:1em}
 .imghov{text-align:center}
@@ -102,6 +104,7 @@ and (min-device-width : 375px) {
 .video{width:350px}
 }
 
+/* Pixel 2, Pixel 2 XL */ 
 @media only screen
 and (min-device-width : 410px) {
 .front-page-top{padding-top:3em}
@@ -109,16 +112,18 @@ and (min-device-width : 410px) {
 #subtitle{padding-top:.8em;font-size:1.7em}
 .title-section{padding-bottom:4em}
 .section-title{font-size:2.8em}
-.skills-section{height:34em}
+.skills-section{height:37em}
 .skill-category{font-size:2em}
 .skill{font-size:1.25em}
-.page-2{min-height:1750px}
+.page-2{min-height:1850px}
 .projects-section{margin-left:1em;margin-right:1em}
 .imghov{text-align:center}
 .overlay{background-color:rgba(0,0,0,0);opacity:0}
 .mobile-button{opacity:1;position:absolute;top:1%;right:41%}
 .video{width:350px}
 }
+
+/* iPhone 6/7/8 Plus */
 @media only screen
 and (min-device-width : 413px) {
 .front-page-top{padding-top:3em}
@@ -126,10 +131,10 @@ and (min-device-width : 413px) {
 #subtitle{padding-top:.8em;font-size:1.7em}
 .title-section{padding-bottom:4em}
 .section-title{font-size:2.8em}
-.skills-section{height:32em}
+.skills-section{height:37em}
 .skill-category{font-size:2em}
 .skill{font-size:1.25em}
-.page-2{min-height:1750px}
+.page-2{min-height:1850px}
 .projects-section{margin-left:1em;margin-right:1em}
 .imghov{text-align:center}
 .overlay{background-color:rgba(0,0,0,0);opacity:0}
@@ -142,11 +147,13 @@ and (device-height : 812px)
 and (-webkit-device-pixel-ratio : 3) {
 .page-2{min-height:230vh}
 }
+
+/* iPad */
 @media screen and (min-width: 768px) {
-#main-title{font-size:4.7em;padding-top:1em}
+#main-title{font-size:4.5em;padding-top:1em}
 #subtitle{font-size:2em}
 .page-2{min-height:90vh}
-.skills-section{margin-top:0;height:28em}
+.skills-section{margin-top:0;height:33em}
 .skill-category{font-size:1.5em}
 .skill{font-size:1em}
 .football-padding{margin-top:3.5em}
@@ -190,11 +197,12 @@ and (-webkit-device-pixel-ratio : 3) {
 .mobile-button{opacity:0;position:relative;top:0;right:0}
 .project-name{margin-top:-135px;margin-bottom:25px}
 }
+/* iPad Pro */
 @media screen and (min-width: 1024px) {
 #main-title{font-size:4.7em;padding-top:1em}
 #subtitle{font-size:2em}
 .page-2{min-height:100vh}
-.skills-section{margin-top:0;height:34em}
+.skills-section{margin-top:0;height:40em}
 .skill-category{font-size:2em}
 .skill{font-size:1.5em}
 .football-padding{margin-top:7.5em}
