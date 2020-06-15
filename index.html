@@ -175,6 +175,16 @@
               <div class="row padding justify-content-around">
                 <div class="col-md-6 text-center">
                   <div class="hover-button imghov">
+                    <img src="img/insight_logo.png" class="img">
+                    <div class="overlay ctr mobile-button">
+                      <button type="button" class="btn btn-primary view-button" data-toggle="modal" data-target="#insightModal">View</button>
+                    </div>
+
+                    <h5 class="project-name">InSight App</h5>
+                  </div>
+                </div>
+                <div class="col-md-6 text-center">
+                  <div class="hover-button imghov">
                     <img src="img/TSE-logo.png" class="img">
                     <div class="overlay ctr mobile-button">
                       <button type="button" class="btn btn-primary view-button" data-toggle="modal" data-target="#TSEModal">View</button>
@@ -183,6 +193,8 @@
                     <h5 class="project-name">Tiny Search Engine</h5>
                   </div>
                 </div>
+              </div>
+              <div class="row padding justify-content-around">
                 <div class="col-md-6 text-center">
                   <div class="hover-button imghov">
                     <img src="img/maze-logo.png" class="img">
@@ -193,8 +205,6 @@
                     <h5 class="project-name">Maze Solver</h5>
                   </div>
                 </div>
-              </div>
-              <div class="row padding justify-content-around">
                 <div class="col-md-6 text-center">
                   <div class="hover-button imghov">
                     <img src="img/huffman-pic.png" class="img">
@@ -205,6 +215,8 @@
                     <h5 class="project-name">Huffman File Compression</h5>
                   </div>
                 </div>
+              </div>
+              <div class="row padding justify-content-around">
                 <div class="col-md-6 text-center">
                   <div class="hover-button imghov">
                     <img src="img/baker.png" class="img">
@@ -215,8 +227,6 @@
                     <h5 class="project-name">Webcam Paint & Processing</h5>
                   </div>
                 </div>
-              </div>
-              <div class="row padding justify-content-around">
                 <div class="col-md-6 text-center">
                   <div class="hover-button imghov">
                     <img src="img/website-pic2.png" class="img">
@@ -227,15 +237,15 @@
                     <h5 class="project-name">Personal Website</h5>
                   </div>
                 </div>
-                <div class="col-md-6 text-center">
-                  <div class="hover-button imghov">
-                    <img src="img/dartmouth-pathfinder.png" class="img">
-                    <div class="overlay ctr mobile-button">
-                      <button type="button" class="btn btn-primary view-button" data-toggle="modal" data-target="#pathfinderModal">View</button>
-                    </div>
-
-                    <h5 class="project-name">Dartmouth Pathfinder</h5>
+              </div>
+              <div class="col-md-12 text-center">
+                <div class="hover-button imghov">
+                  <img src="img/dartmouth-pathfinder.png" class="img">
+                  <div class="overlay ctr mobile-button">
+                    <button type="button" class="btn btn-primary view-button" data-toggle="modal" data-target="#pathfinderModal">View</button>
                   </div>
+
+                  <h5 class="project-name">Dartmouth Pathfinder</h5>
                 </div>
               </div>
             </div>
@@ -277,10 +287,124 @@
             <div class="col-md-2 col-xs-1"></div>
           </div>
           <div class="row justify-content-center">
-            <p class="footer-text">@2019 Christopher Sykes. All rights reserved.</p>
+            <p class="footer-text">@2020 Christopher Sykes. All rights reserved.</p>
           </div>
         </div>
       </footer>
+      <div class="modal fade" id="insightModal" tabindex="-1" role="dialog" aria-labelledby="insightModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header d-block">
+              <div class="d-flex">
+                <h5 class="modal-title" id="project-title">InSight App</h5>
+              </div>
+            <h6 class="modal-title" id="project-subtitle">Java</h6>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="embed-responsive embed-responsive-16by9 col-xs-12 justify-content-center">
+                  <video playsnline webkit-playsinline muted autoplay="autoplay" loop="loop" class="video" width="600">
+                    <source src="img/updated_insight_personal.mov" type="video/mp4">
+                  </video>
+                </div>
+                <div class="row">
+                  <div class="col modal-body-text">
+                    <p>For CS 65 Smartphone Programming, I worked in a group of three to create an Android application 
+                      called InSight, which was aimed at improving the quality of life of the visually imapaired. Our app recieved 
+                      the Honorable Mention Award as one of the top three in the class. Using CameraX and Google Firebase, this app helps 
+                      the visually impaired by providing features like: 
+                      <br/> <br/> -User friendly UI to log users in via speech 
+                      <br/> <br/> -Audio feedback on button presses using Google’s text to speech engine 
+                      <br/> <br/> -Firebase ML Kit’s text recogintion API to recognize text and provide audio feedback
+                      <br/> <br/> -Firebase ML Kit’s image recognition API to recognize objects in the users surrounding, and provide audio feedback
+                      <br/> <br/> -Add-on features like ‘Read Tutorials’, and ‘Provide Feedback’ that improve the users experience 
+                      <br/> <br/> *For more info and to download the APK, please visit our website: https://chriscsykes.github.io/InSight/ </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">
+                <a class="contact-me-button" href="https://chriscsykes.github.io/InSight/">Visit Website</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="TSEModal" tabindex="-1" role="dialog" aria-labelledby="TSEModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header d-block">
+              <div class="d-flex">
+                <h5 class="modal-title" id="project-title">Tiny Search Engine</h5>
+              </div>
+            <h6 class="modal-title" id="project-subtitle">C and Unix</h6>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row justify-content-center">
+                  <img src="img/tse_pic.png" class="website-modal-pic">
+                </div>
+                <div class="row">
+                  <div class="col modal-body-text">
+                    <p>In this project, I created a Tiny Search Engine that takes a search query from the command-line and
+                       returns a list of documents that those words appear in. This project consisted of three main parts: <br/> <br/>A "Crawler" 
+                        which crawls a website and retrieves webpages starting with a specified URL. It parses the initial webpage, 
+                        extracts any embedded URLs and retrieves those pages, and crawls the pages found at those URLs. <br/> <br/> A "Indexer" which
+                        reads the document files produced by the Crawler, builds an index, and writes that index to a file. <br/><br/>
+                        A "Querier" which reads the index file produced by the Indexer, and page files produced by the Crawler, 
+                        and answers search queries submitted via stdin. The output is a list ranked form highest to lowest count, showing 
+                        the score, doc_ID, and URL. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">
+                <a class="contact-me-button" href="mailto:chrispsykes12@gmail.com">Contact me for code</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="mazeModal" tabindex="-1" role="dialog" aria-labelledby="mazeModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header d-block">
+              <div class="d-flex">
+                <h5 class="modal-title" id="project-title">Maze Solver</h5>
+              </div>
+            <h6 class="modal-title" id="project-subtitle">C and Unix</h6>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="embed-responsive embed-responsive-16by9 col-xs-12 justify-content-center">
+                  <video playsnline webkit-playsinline muted autoplay="autoplay" loop="loop" class="video" width="600">
+                    <source src="img/maze-recording.mov" type="video/mp4">
+                  </video>
+                </div>
+                <div class="row">
+                  <div class="col modal-body-text">
+                    <p>In this project, a few of my peers and I created a client-server application that simulates players --avatar threads-- searching 
+                      for each other in a maze generated and managed by a server. The application was able to solve mazes of varying 
+                      difficulty without any prior knowledge. To do this, our team developed a algorithm that implemented a breadth-first search
+                       to find dead ends, and a priority queue to store potential moves. In addition, the application included a visual user interface and a log 
+                      file to track the avatars’ success/failures. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">
+                <a class="contact-me-button" href="mailto:chrispsykes12@gmail.com">Contact me for code</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="modal fade" id="websiteModal" tabindex="-1" role="dialog" aria-labelledby="websiteModal" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
           <div class="modal-content">
@@ -403,79 +527,6 @@
                     <video playsnline webkit-playsinline muted autoplay="autoplay" loop="loop" class="video" width="600">
                       <source src="img/webcam-recording.mp4" type="video/mp4">
                     </video>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="modal-footer justify-content-center">
-              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">
-                <a class="contact-me-button" href="mailto:chrispsykes12@gmail.com">Contact me for code</a>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="modal fade" id="TSEModal" tabindex="-1" role="dialog" aria-labelledby="TSEModal" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header d-block">
-              <div class="d-flex">
-                <h5 class="modal-title" id="project-title">Tiny Search Engine</h5>
-              </div>
-            <h6 class="modal-title" id="project-subtitle">C and Unix</h6>
-            </div>
-            <div class="modal-body">
-              <div class="container-fluid">
-                <div class="row justify-content-center">
-                  <img src="img/tse_pic.png" class="website-modal-pic">
-                </div>
-                <div class="row">
-                  <div class="col modal-body-text">
-                    <p>In this project, I created a Tiny Search Engine that takes a search query from the command-line and
-                       returns a list of documents that those words appear in. This project consisted of three main parts: <br/> <br/>A "Crawler" 
-                        which crawls a website and retrieves webpages starting with a specified URL. It parses the initial webpage, 
-                        extracts any embedded URLs and retrieves those pages, and crawls the pages found at those URLs. <br/> <br/> A "Indexer" which
-                        reads the document files produced by the Crawler, builds an index, and writes that index to a file. <br/><br/>
-                        A "Querier" which reads the index file produced by the Indexer, and page files produced by the Crawler, 
-                        and answers search queries submitted via stdin. The output is a list ranked form highest to lowest count, showing 
-                        the score, doc_ID, and URL. </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="modal-footer justify-content-center">
-              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">
-                <a class="contact-me-button" href="mailto:chrispsykes12@gmail.com">Contact me for code</a>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="modal fade" id="mazeModal" tabindex="-1" role="dialog" aria-labelledby="mazeModal" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header d-block">
-              <div class="d-flex">
-                <h5 class="modal-title" id="project-title">Maze Solver</h5>
-              </div>
-            <h6 class="modal-title" id="project-subtitle">C and Unix</h6>
-            </div>
-            <div class="modal-body">
-              <div class="container-fluid">
-                <div class="embed-responsive embed-responsive-16by9 col-xs-12 justify-content-center">
-                  <video playsnline webkit-playsinline muted autoplay="autoplay" loop="loop" class="video" width="600">
-                    <source src="img/maze-recording.mov" type="video/mp4">
-                  </video>
-                </div>
-                <div class="row">
-                  <div class="col modal-body-text">
-                    <p>In this project, a few of my peers and I created a client-server application that simulates players --avatar threads-- searching 
-                      for each other in a maze generated and managed by a server. The application was able to solve mazes of varying 
-                      difficulty without any prior knowledge. To do this, our team developed a algorithm that implemented a breadth-first search
-                       to find dead ends, and a priority queue to store potential moves. In addition, the application included a visual user interface and a log 
-                      file to track the avatars’ success/failures. </p>
                   </div>
                 </div>
               </div>
